@@ -29,8 +29,8 @@ chsh -s bash```
 * Integrar sudo en el sistema
 
 Instalamos sudo desde los ports:
-```cd /usr/ports/security/sudo 
-make install clean```
+``cd /usr/ports/security/sudo 
+make install clean``
 
 La configuracion de sudo se encuentra en la ruta /usr/local/etc/sudoers.default, que moveremos
 a /usr/local/etc/sudoers para adquirir sus valores por defecto.
