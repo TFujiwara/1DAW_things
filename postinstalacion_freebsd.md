@@ -49,7 +49,8 @@ Y añadimos las siguientes lineas al archivo /etc/rc.conf:
 
 ```moused_enable="YES"
 dbus_enable="YES"
-hald_enable="YES"```
+hald_enable="YES"
+```
 
 Podemos probar que el entorno funcione bien con el comando:
 
