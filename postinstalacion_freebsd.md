@@ -66,32 +66,43 @@ pkg install slim
 
 Agregamos la siguiente línea en el archivo /etc/rc.conf:
 
-```slim_enable="YES"```
+```
+slim_enable="YES"
+```
 
 Agregamos la siguiente línea al archivo .xinitrc en el directorio home del usuario.
 
-```exec mate-session```
+```
+exec mate-session
+```
 
 * Poner entorno en español
 
 Editamos .login_conf y añadimos estas lineas:
 
-```me:
+```
+me:
 :charset=ISO-8859-15:
 :lang=es_ES.ISO8859-15:
-:tc=default:```
+:tc=default:
+```
 
 Editamos .profile y añadimos estas lineas:
 
-``LANG=es_ES.ISO8859-15; export LANG
-MM_CHARSET=ISO-8859-15; export MM_CHARSET``
+```
+LANG=es_ES.ISO8859-15; export LANG
+MM_CHARSET=ISO-8859-15; export MM_CHARSET`
+```
 
 Editamos .xinitrc y añadimos estas lineas:
 
-``LANG=es_ES.ISO8859-15; export LANG
-setenv LANG es_ES.ISO8859-15``
+```
+LANG=es_ES.ISO8859-15; export LANG
+setenv LANG es_ES.ISO8859-15
+```
 
 * Aplicaciones utiles (ofimatica, video...)
 
-```pkg install vlc libreoffice xarchiver rar unrar p7zip filezilla epdfview gimp xfburn ristrerro gtk-murrine``
+```pkg install vlc libreoffice xarchiver rar unrar p7zip filezilla epdfview gimp xfburn ristrerro gtk-murrine
+``
 
