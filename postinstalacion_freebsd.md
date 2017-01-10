@@ -43,7 +43,7 @@ al grupo wheel y sudo puedan ejecutar con sudo cualquier comando.
 Se instala MATE junto con el display manager SLIM.
 
 Para instalar MATE, haremos uso del siguiente comando:
-```pkg install xf86-video-fbdev mate-desktop mate xorg```
+``pkg install xf86-video-fbdev mate-desktop mate xorg``
 
 Y añadimos las siguientes lineas al archivo /etc/rc.conf:
 
