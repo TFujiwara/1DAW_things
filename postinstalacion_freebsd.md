@@ -47,7 +47,8 @@ Para instalar MATE, haremos uso del siguiente comando:
 
 Y añadimos las siguientes lineas al archivo /etc/rc.conf:
 
-```moused_enable="YES"
+```
+moused_enable="YES"
 dbus_enable="YES"
 hald_enable="YES"
 ```
