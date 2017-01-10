@@ -60,7 +60,9 @@ Podemos probar que el entorno funcione bien con el comando:
 Instalamos SLIM, ya que MATE no posee de un display manager por si mismo como
 GNOME o KDE.
 
-```pkg install slim```
+```
+pkg install slim
+```
 
 Agregamos la siguiente línea en el archivo /etc/rc.conf:
 
